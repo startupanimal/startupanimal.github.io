@@ -1,0 +1,71 @@
+# Site
+name: "The Startup Animals"
+title: "The Startup Animals"
+description: "Brief glimpse of the malevolent predator lurking inside us is just another reflection of ourselves."
+logo: 'https://res.cloudinary.com/ramaprashanth/image/upload/v1582352883/startupanimal.jpg'
+favicon: 'https://res.cloudinary.com/ramaprashanth/image/upload/v1582352883/startupanimal.jpg'
+baseurl: ''
+google_analytics: 'UA-158865781-1'
+disqus: 'startupanimal'
+mailchimp-list: 'https://startupanimal.us4.list-manage.com/subscribe/post?u=e19e9bcfdb5de909473b9a9d9&amp;id=25cab108d2'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  rama:
+    name: Rama
+    display_name: Rama
+    gravatar: ee9cf4464e8000eff9c4527d39b2e801
+    email: rama@startupanimal.com
+    web: https://ramaprashanth.com
+    twitter: https://twitter.com/ramaprashanthrv
+    description: "Robotics Evangelist living positivity at large."
+  venkat:
+    name: Venkat
+    display_name: Venkat    
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: venkat@startupanimal.com
+    web: https://www.linkedin.com/in/venkatnarayanan4313/
+    twitter: https://www.linkedin.com/in/venkatnarayanan4313/
+    description: "Futuristic, goal-oriented engineer developing next-generation, super-intelligent robotic systems."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
