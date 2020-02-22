@@ -8,6 +8,7 @@ baseurl: ''
 google_analytics: 'UA-158865781-1'
 disqus: 'startupanimal'
 mailchimp-list: 'https://startupanimal.us4.list-manage.com/subscribe/post?u=e19e9bcfdb5de909473b9a9d9&amp;id=25cab108d2'
+formspree: 'mvorgrwk'
 include: ["_pages"]
 permalink: /:title/
 

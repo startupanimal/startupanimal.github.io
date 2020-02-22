@@ -24,7 +24,7 @@ to be distraction from the real stuff. Aint it ?</p>
 
 <p>Intrigued? Want to pick our brains?</p>
 
-<a target="_blank" href="mailto:hello@startupanimal.com?Subject=Lets%20have%20a%20coffee" class="btn btn-danger">Break the ice</a> 
+<a href="{{site.baseurl}}/contact.html" class="btn btn-danger">Break the ice</a> 
 
 </div>
 </div>
