@@ -156,9 +156,13 @@ ga('send', 'pageview');
 ================================================== -->
 <footer class="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
+        <div class="row align-items-center justify-content-between">
+            <div>
+                <span class="navbar-brand mr-2 mb-0"><strong>{{site.name}}</strong></span>
+                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span> 
+            </div>
+            <div>
+                <a target="_top" href="{{ site.baseurl }}/privacy-policy.html"> Privacy Policy </a>
             </div>
         </div>
     </div>
