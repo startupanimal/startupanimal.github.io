@@ -90,3 +90,27 @@
    font-size: 50%; }
  .c-rating--big {
    font-size: 150%; }
+ .catlist .sep{
+   background: #fff;
+ }
+ .catlist .sep:last-child {
+   display:none;
+ }
+ .spanborder {
+   border-bottom:1px solid #e8f3ec;
+   margin-bottom:2rem;
+ }
+ .spanborder span {
+   border-bottom:1px solid rgba(0,0,0,0.44);
+   display:inline-block;
+   padding-bottom:20px;
+   margin-bottom:-1px;
+ }
+ .excerpt {
+   color: rgba(0,0,0,0.59);
+   margin-top:10px;
+  }
+ a,a:hover {
+	 transition:all .2s;
+	 text-decoration:none;
+ }
