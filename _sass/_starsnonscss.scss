@@ -114,3 +114,45 @@
 	 transition:all .2s;
 	 text-decoration:none;
  }
+ .navbar-name{
+  font-family: "Georgia","Times New Roman",serif;
+ }
+ .jumbotron-left{
+   padding-top: 2.5rem!important;
+   padding-bottom: 2.5rem!important;
+   padding-left: 2.5rem!important;
+ }
+ .jumbotron-container{
+   padding-right: 1rem!important;
+   margin-bottom: 3rem!important;
+ }
+ ol.list-featured {
+	counter-reset:my-awesome-counter;
+	list-style:none;
+	padding-left:0;
+}
+ol.list-featured li {
+	counter-increment:my-awesome-counter;
+	display:flex;
+	font-size:0.8rem;
+}
+ ol.list-featured li:before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 0.5rem;
+  font-family: Arial;
+  line-height: 1;
+  opacity: .1;
+}
+ul.list-unstyled li {
+	margin-bottom:.3rem;
+}
+.mailchimp{
+  margin-top: 2rem!important;
+}
+.mailchimp-container{
+  fill: #e8f3ec !important;
+  background-color: #e8f3ec !important;
+  border: 1px solid #e8f3ec !important;
+}
